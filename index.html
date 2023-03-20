@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <title>My Portfolio</title>         
+        <style>
+             header {
+        background-color: #333;
+        color: #fff;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -100px;
+        display: -moz-inline-box;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+     }
+     nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 10rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /*body{
+    background-image: url('https://img.freepik.com/premium-photo/abstract-blue-background-with-smooth-shining-lines_476363-5586.jpg?w=1060');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;*/
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+    @media (min-aspect-ratio:16/9){
+    #myVideo{
+      width:100%;
+      height: auto;
+    }
+  }
+@media (max-aspect-ratio:16/9){
+  #myVideo{
+    width: auto;
+    height: 100%;
+  }
+}
+  
+  
+  p{
+    font-family: 'Poppins', sans-serif;
+    color:beige;
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color:rgb(237, 200, 151);
+    margin-left:50px;
+    margin-top: 40px;
+  }
+  ul{
+    margin-left:70px;
+    margin-top: 40px;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    color:beige;
+  }
+        </style>  
+    </head>
+    <body>
+      <video autoplay muted loop id="myVideo">
+        <source src="https://media.istockphoto.com/id/1404501379/video/pair-of-hands-typing-on-a-laptop-and-flying-social-media-icons.mp4?s=mp4-640x640-is&k=20&c=vhk91p0P86oumWxQLUtTgHBRk9vSSTiMNY1mn8lvF7s=" type="video/mp4">
+      </video>
+        <header>
+            <h1>My Portfolio</h1>
+            <nav>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#training">Training</a></li>
+              </ul>
+            </nav>
+        </header>
+        
+        <section class="main">
+        <div style="display: inline;" >
+        <h1 style="display: inline;height:250px; margin-left: 100px; margin-top: 200px; font-weight:bolder; font-size: 80px;">Hi!!! I am Renuka</h1>
+        <img style="border-radius: 200%;width: 250px; height:250px;margin-top: 10px;margin-right: 100px; float:right;display: inline;" src="https://i.imgur.com/ha46uo7.jpg">
+
+    </div>
+        <div class="about" style="margin-top: 100px;">
+        <h1>About</h1>
+        <p>I am hardworking Engineering Graduate specialized in Computer Science Engineering at Baba Institute of Technology and Sciences</p></div>
+      </section>
+        <div class="education">
+        <h1>Education</h1>
+        <ul>   
+        <li>I had completed my Schooling from <strong>South Eastern Railway Mixed High School, Kharagpur</strong></li>
+        <li> I had Completed my Intermediate from<strong> Sri Chaitanya Junior College, Visakhapatnam</strong></li>
+        <li>I am Currently pursuing my BTech from <strong>Baba Institute of Technology and Sciences, Visakhapatnam</strong></li>
+        </ul></div>
+        <div class="contact">
+            <h1>Contact me</h1>
+            <ul>
+                <li><strong>Email:</strong> panchadi.renuka@gmail.com</li>
+                <li><strong>Mobile No.:</strong>8509946866</li>
+            </ul></div>
+            <div class="skills">
+                <h1>Skills</h1>
+                <ul>
+                    <li><strong>Front End:</strong>HTML | CSS |Javascript </li>
+                    <li><strong>Back End:</strong>Python | JAVA | PHP</li>
+                    <li><strong>Presentation:</strong>MS Office</li>
+                </ul>
+            </div>
+            <div class="training">
+                <h1>Training</h1>
+                <ul>
+                    <li><strong>Certificate in Computer Application</strong><br>Web Computers<br>
+                    March 2017 - June 2017 <br><strong>Recieved a Certificate</strong> from Swami Vivekananda National Youth Center for passing written and practical test</li>
+                    <li><strong>Web Development</strong><br>Infinitie Technologies, Online Internship<br>
+                    August 2022-September 2022<br><strong>Recieved a Certificate</strong> for the exceptional skills that I have shown during the training period by completing my internship project</li>
+                    <li><strong>Digital 101 Journey</strong><br>Future Skills Prime, NASSCOM<br>January 2023<br>
+                    <strong>Received a Certificate</strong> for the completion of my course during the training period</li>
+                </ul> </div>
+    </body>
+</html>
